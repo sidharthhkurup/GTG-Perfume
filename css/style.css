@@ -945,6 +945,15 @@ th {
 }
 
 @media (max-width: 768px) {
+.footer-container{
+flex-direction: column;
+}
+.newsletter-form{
+  flex-direction: column;
+}
+  }
+
+@media (max-width: 768px) {
   .nav {
     display: none;
   }
@@ -994,3 +1003,4 @@ th {
     font-size: 48px;
   }
 }
+

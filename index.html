@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>GTG Perfumes</title>
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
 </head>
 <body>
 
@@ -350,8 +352,8 @@
 <footer class="footer">
   <div class="footer-container">
 
-    <!-- Left section -->
-    <div class="footer-section">
+    <!-- 1. LOGO + LEFT LINKS -->
+    <div class="footer-col">
       <h2 class="footer-logo">GTG</h2>
       <ul class="footer-links">
         <li><a href="#">Home</a></li>
@@ -360,37 +362,44 @@
       </ul>
     </div>
 
-    <!-- Middle section -->
-    <div class="footer-section">
-      <ul class="footer-links">
+    <!-- 2. MIDDLE LINKS -->
+    <div class="footer-col">
+      <ul class="footer-links top-gap">
         <li><a href="#">About Us</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+    </div>
 
-      <div class="social-links">
-        <a href="#">Facebook</a>
-        <a href="#">Instagram</a>
-        <a href="#">X</a>
+    <!-- 3. SOCIAL -->
+    <div class="footer-col">
+      <div class="social-links top-gap">
+        <a href="#"><i class="fab fa-facebook-f"></i> Facebook</a>
+        <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="#"><i class="fab fa-x-twitter"></i> X</a>
       </div>
     </div>
 
-    <!-- Right section -->
-    <div class="footer-section newsletter">
+    <!-- 4. NEWSLETTER -->
+    <div class="footer-col newsletter">
       <p class="newsletter-title">
         Join our newsletter to stay up to date on features and releases.
       </p>
-      <form class="newsletter-form">
-        <input type="email" placeholder="Enter your email" />
-        <button type="submit">Subscribe</button>
-      </form>
+
+      <div class="newsletter-form">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+
       <p class="newsletter-note">
-        By subscribing you agree to our Privacy Policy and provide consent to receive updates.
+        By subscribing you agree to our <a href="#">Privacy Policy</a> and provide consent to receive updates
+        from our company.
       </p>
     </div>
 
   </div>
 </footer>
+
 
 
 <script src="js/main.js"></script>
